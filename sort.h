@@ -24,5 +24,7 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
+int Lomuto_scheme(int *array, int start, int end, int size);
+void quick_recursive(int *array, int start, int end, int size);
 
 #endif
